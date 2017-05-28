@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="1b11a5e5-e9c3-4284-91b3-1834e8cbb8ab" version="1">
+  <Properties>
+    <Name>Civilopedia Improvement mod</Name>
+    <Description>This mod implements "Back" and "Next" function to Civilization VI.
+
+Future planned additions:
+"Remember me" function</Description>
+    <Teaser>This mod improves the usability of the Civillopedia.</Teaser>
+    <Authors>Putmalk</Authors>
+    <SpecialThanks>Civ VI Modding Helpline Discord server for helping develop this mod</SpecialThanks>
+    <AffectsSavedGames>0</AffectsSavedGames>
+  </Properties>
+  <FrontEndActions />
+  <InGameActions>
+    <ImportFiles id="NewAction">
+      <File>CivilopediaSupport.lua</File>
+      <File>CivilopediaScreen.xml</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>CivilopediaScreen.xml</File>
+    <File>CivilopediaSupport.lua</File>
+  </Files>
+</Mod>
